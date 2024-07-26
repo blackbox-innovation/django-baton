@@ -13,7 +13,7 @@ REPO_URL = "https://github.com/blackbox-innovation/django-baton"
 
 setup(
     name="django-baton-alt-theme",
-    version="4.1.0",
+    version="4.1.0.1",
     packages=["baton", "baton.autodiscover", "baton.templatetags"],
     include_package_data=True,
     license="MIT License",
