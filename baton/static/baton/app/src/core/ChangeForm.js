@@ -209,13 +209,8 @@ const ChangeForm = {
     },
     fixSubmitRow: function() {
         $('#content-main form').addClass('baton-fixed-submit-row')
-        const footerHeight = $('#footer').outerHeight()
         let fixPosition = function() {
-            if ($(window).scrollTop() + $(window).height() > $(document).height() - footerHeight + 2) {
-                $('form .submit-row').css('padding-bottom', `calc(${footerHeight}px + 1rem)`)
-            } else {
-                $('form .submit-row').css('padding-bottom',  '1rem')
-            }
+            $('form .submit-row').css('padding-bottom',  '1rem')
         }
         fixPosition()
         $(window).on('scroll', fixPosition)

@@ -4,10 +4,11 @@
   background: var(--bs-baton-breadcrumbs-bg);
   color: var(--bs-baton-breadcrumbs-color);
   // border-bottom: 1px solid $breadcrumbs-border-color;
-  line-height: 2.0;
+  line-height: 2;
   word-spacing: 5px;
 
   a {
+    color: var(--bs-baton-breadcrumbs-color);
     &:first-child {
       &::before {
         @extend %font-awesome;

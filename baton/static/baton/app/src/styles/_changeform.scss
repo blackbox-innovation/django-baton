@@ -8,6 +8,7 @@
 
   #content-main {
     @extend .container-fluid;
+    @extend .px-5;
   }
 
   .object-tools {
@@ -29,7 +30,7 @@
     }
   }
 
-  input[type=text].hidden {
+  input[type='text'].hidden {
     display: none !important;
   }
 
@@ -161,6 +162,6 @@
   min-width: auto !important;
 }
 
-.change-form #content-main>form .form-row>div.baton-form-include {
+.change-form #content-main > form .form-row > div.baton-form-include {
   display: block;
 }

@@ -25,7 +25,7 @@
 
   > h1 {
     @extend .mb-0;
-    @extend .p-3;
+    @extend .p-5;
     background: var(--bs-baton-content-title-bg);
     font-size: 1.6rem;
     font-weight: 700;
@@ -52,7 +52,7 @@
 
     a {
       @extend .btn;
-      @extend .btn-secondary;
+      @extend .btn-primary;
 
       &::before {
         @extend %font-awesome;
@@ -73,7 +73,7 @@
 
     &::before {
       @extend %font-awesome;
-      content: "\f00c";
+      content: '\f00c';
     }
   }
 
@@ -84,7 +84,7 @@
 
     &::before {
       @extend %font-awesome;
-      content: "\f05a";
+      content: '\f05a';
     }
   }
 
@@ -95,7 +95,7 @@
 
     &::before {
       @extend %font-awesome;
-      content: "\f12a";
+      content: '\f12a';
     }
   }
 
@@ -106,7 +106,7 @@
 
     &::before {
       @extend %font-awesome;
-      content: "\f071";
+      content: '\f071';
     }
   }
 }
