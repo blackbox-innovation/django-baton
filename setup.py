@@ -12,8 +12,8 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 REPO_URL = "https://github.com/blackbox-innovation/django-baton"
 
 setup(
-    name="django-baton",
-    version="4.2.0",
+    name="django-baton-alt-theme",
+    version="4.2.0.1",
     packages=["baton", "baton.autodiscover", "baton.templatetags"],
     include_package_data=True,
     license="MIT License",
