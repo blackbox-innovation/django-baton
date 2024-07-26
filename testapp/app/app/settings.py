@@ -143,7 +143,7 @@ BATON = {
     'GRAVATAR_DEFAULT_IMG': 'robohash',
     'GRAVATAR_ENABLED': True,
     'FORCE_THEME': None,
-    'LOGIN_SPLASH': '/static/app/bg.jpg',
+    'LOGIN_SPLASH': None,
     'SEARCH_FIELD': {
         'label': 'Search news',
         'url': '/admin/search/',

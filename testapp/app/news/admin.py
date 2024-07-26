@@ -171,11 +171,11 @@ class NewsAdmin(ImportExportModelAdmin, TranslationAdmin):
         data = {}
         for news in cl.queryset.filter(category__id=2):
             data[news.id] = {
-                'class': 'table-info',
+                'class': 'table',
                 # 'selector': '#result_list tr input[name=_selected_action][value=%d]' % news.id,
             }
         data[1] = {
-            'class': 'table-success',
+            'class': 'table',
             'selector': '.span-category-id-%d' % 1,
             'getParent': 'td',
             'title': 'A fantasctic tooltip!'
