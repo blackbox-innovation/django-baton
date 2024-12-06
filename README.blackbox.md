@@ -1,6 +1,6 @@
 # Django Baton Development Setup
 
-Quick start guide for Django Baton development environment.
+Quick start guide for Django Baton development environment with the alternative theme.
 
 ## Prerequisites
 
@@ -28,8 +28,17 @@ cd baton/static/baton/app
 npm run dev:all
 ```
 
+
 Access the admin interface at:
 - http://localhost:8000/admin
 
 Frontend assets are served from:
 - http://localhost:8080
+
+## Releases
+
+Releases are automatically handled through GitHub Actions. When commits are pushed to the main branch, the workflow will:
+- Build and test the package
+- Create a new release if version has been updated
+- Publish the package to PyPI
+- Generate release notes automatically

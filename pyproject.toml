@@ -16,6 +16,8 @@ django-import-export = "^4.1.1"
 django-tinymce = "^4.1.0"
 django-mptt = "^0.16.0"
 requests = "^2.32.3"
+python-dotenv = "^1.0.1"
+django-modeltranslation = "^0.19.11"
 
 [tool.poetry.group.dev.dependencies]
 djlint = "^1.34.1"
