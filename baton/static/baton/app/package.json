@@ -8,7 +8,9 @@
     "compile": "BATON_REVISION=$(git rev-parse HEAD) npx webpack --config ./webpack.prod.js",
     "watch": "npx webpack --watch --config ./webpack.dev.js",
     "dev": "BATON_REVISION=$(git rev-parse HEAD) webpack serve --host 0.0.0.0 --progress --config ./webpack.dev.js",
-    "lint": "./node_modules/eslint/bin/eslint.js ."
+    "lint": "./node_modules/eslint/bin/eslint.js .",
+    "django": "cd ../../../../testapp/app && python manage.py runserver",
+    "dev:all": "concurrently \"npm run django\" \"npm run dev\""
   },
   "author": "abidibo",
   "license": "MIT",
