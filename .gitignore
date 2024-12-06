@@ -17,3 +17,4 @@ django_baton.egg-info/
 .virtualenv
 .env
 testapp/.env
+testapp/app/db.sqlite3
